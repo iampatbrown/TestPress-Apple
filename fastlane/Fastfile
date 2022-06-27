@@ -19,7 +19,8 @@ platform :ios do
 
   lane :test_without_building do
     # TODO: This should be computed, not hardcoded
-    xctestrun_path = File.join(DERIVED_DATA_PATH, 'Build/Products/TestPress_TestPress_iphonesimulator15.5-x86_64.xctestrun')
+    # xctestrun_path = File.join(DERIVED_DATA_PATH, 'Build/Products/TestPress_TestPress_iphonesimulator15.5-x86_64.xctestrun')
+    xctestrun_path = Dir.glob("#{DERIVED_DATA_PATH}/Build/Products/*.xctestrun").first
 
     # add_buildkite_analytics_token(xctestrun_path: xctestrun_path)
 
