@@ -2,6 +2,8 @@
 
 # Workaround for https://github.com/Automattic/buildkite-ci/issues/79
 which ruby
+ruby -v
+id -un
 echo "--- :rubygems: Fixing Ruby Setup"
 gem install bundler
 
