@@ -14,7 +14,7 @@ platform :ios do
       scheme: 'TestPress',
       build_for_testing: true,
       derived_data_path: DERIVED_DATA_PATH,
-      output_style: raw
+      output_style: 'raw'
     )
   end
 
@@ -30,7 +30,7 @@ platform :ios do
       scheme: 'TestPress',
       test_without_building: true,
       xctestrun: xctestrun_path,
-      output_style: raw
+      output_style: 'raw'
     )
   end
 
