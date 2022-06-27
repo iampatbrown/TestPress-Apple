@@ -24,4 +24,4 @@ steps:
     env: *common_env
     plugins: *common_plugins
     agents:
-      queue: "mac"
+      queue: "default"
