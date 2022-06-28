@@ -4,7 +4,12 @@
       "id" : "AE4C3283-B800-48AA-9952-6ADE39BB0A01",
       "name" : "Configuration 1",
       "options" : {
-
+        "environmentVariableEntries" : [
+          {
+            "key" : "BUILDKITE_ANALYTICS_TOKEN",
+            "value" : "$(BUILDKITE_ANALYTICS_TOKEN)"
+          }
+        ]
       }
     }
   ],
