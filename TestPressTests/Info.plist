@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BUILDKITE_ANALYTICS_TOKEN</key>
+	<string>$(BUILDKITE_ANALYTICS_TOKEN)</string>
 	<key>BUILDKITE_BRANCH</key>
 	<string>$(BUILDKITE_BRANCH)</string>
 	<key>BUILDKITE_BUILD_ID</key>
