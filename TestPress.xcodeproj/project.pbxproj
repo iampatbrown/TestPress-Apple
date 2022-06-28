@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23872410286AC046001C98B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3F55171D2861780A002CF097 /* TestPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5517202861780A002CF097 /* TestPressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPressApp.swift; sourceTree = "<group>"; };
 		3F5517222861780A002CF097 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 		3F5517302861780B002CF097 /* TestPressTests */ = {
 			isa = PBXGroup;
 			children = (
+				23872410286AC046001C98B5 /* Info.plist */,
 				3F5517312861780B002CF097 /* TestPressTests.swift */,
 				3F55174D2861DECC002CF097 /* TestPress.xctestplan */,
 			);
@@ -479,6 +481,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestPressTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = oss.automattic.TestPressTests;
@@ -498,6 +502,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestPressTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = oss.automattic.TestPressTests;
