@@ -11,7 +11,7 @@ platform :ios do
   lane :build_for_testing do
     run_tests(
       project: 'TestPress.xcodeproj',
-      scheme: 'TestPress',
+      scheme: 'TestPressTests',
       build_for_testing: true,
       derived_data_path: DERIVED_DATA_PATH,
       output_style: 'raw'
@@ -27,7 +27,7 @@ platform :ios do
 
     run_tests(
       project: 'TestPress.xcodeproj',
-      scheme: 'TestPress',
+      scheme: 'TestPressTests',
       test_without_building: true,
       xctestrun: xctestrun_path,
       output_style: 'raw'
