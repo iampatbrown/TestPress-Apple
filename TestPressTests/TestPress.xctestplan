@@ -5,10 +5,7 @@
       "name" : "Configuration 1",
       "options" : {
         "environmentVariableEntries" : [
-          {
-            "key" : "BUILDKITE_ANALYTICS_TOKEN",
-            "value" : "$(BUILDKITE_ANALYTICS_TOKEN)"
-          }
+
         ]
       }
     }
